@@ -1,11 +1,11 @@
-import React from 'react';
-import './App.css';
-import Button from './components/Button';
+import Button from './components/core/Button';
+
+import './styles/global.scss';
 
 function App() {
   return (
     <div className="App">
-      <Button />
+      <Button>Create NFT</Button>
     </div>
   );
 }
